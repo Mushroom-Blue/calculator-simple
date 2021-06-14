@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculator</title>
+  <link rel="stylesheet" href="./styles.css"/>
+  <script defer src="./main.js"></script>
+</head>
+<body>
+  <div class="pageContainer">
+    <div class="calculatorContainer">
+      <div class="calcResult" id="calcResult"></div>
+      <div class="container" id="addition">
+        <input type="text" id="add1"/>
+        <p class="symbolWrap">
+          &plus;
+        </p>
+        <input type="text" id="add2"/>
+        <button id="addSubmit" onclick="getSum()">Add</button>
+      </div>
+      <div class="container" id="subtraction">
+        <input type="text" id="sub1"/>
+        <p class="symbolWrap">
+          &minus;
+        </p>
+        <input type="text" id="sub2"/>
+        <button id="addSubmit" onclick="getDiff()">Minus</button>
+      </div>
+      <div class="container" id="multiplication">
+        <input type="text" id="mult1"/>
+        <p class="symbolWrap">
+          &times;
+        </p>
+        <input type="text" id="mult2"/>
+        <button id="addSubmit" onclick="getProduct()">Times</button>
+      </div>
+      <div class="container" id="division">
+        <input type="text" id="divide1"/>
+        <p class="symbolWrap">
+          &divide;
+        </p>
+        <input type="text" id="divide2"/>
+        <button id="addSubmit" onclick="getQuotient()">Divide</button>
+      </div>
+    </div>
+  </div>
+  
+</body>
+</html>
